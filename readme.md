@@ -2,8 +2,11 @@
 
 
 heroku login
+
 heroku create my-app
+
 git push heroku main
 
 heroku run python manage.py migrate
+
 heroku run python manage.py createsuperuser
